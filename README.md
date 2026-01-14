@@ -5,12 +5,15 @@ A full-stack application for processing PDFs with AI-powered summarization. Feat
 ## User Interface
 
 **Home**
+
 <img src="./images/img-1.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
 
 **Processing**
+
 <img src="./images/img-2.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
 
 **Ready to download**
+
 <img src="./images/img-3.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
 
 ## Features
