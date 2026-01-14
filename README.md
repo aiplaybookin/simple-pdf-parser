@@ -2,9 +2,20 @@
 
 A full-stack application for processing PDFs with AI-powered summarization. Features a professional React frontend, FastAPI backend, and async worker architecture.
 
+## User Interface
+
+**Home**
+<img src="./images/img-1.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
+
+**Processing**
+<img src="./images/img-2.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
+
+**Ready to download**
+<img src="./images/img-3.png" alt="Alt text" style="width:70%; display:block; margin:auto;">
+
 ## Features
 
-### 1. Professional Web Interface
+### 1. Web Interface
 
 Modern React frontend with intuitive UI:
 
@@ -319,14 +330,23 @@ curl "http://localhost:8000/download-markdown/abc-123..." -o results.zip
 ## Key Features
 
 ✅ **Modern UI** - Professional React interface with drag & drop
+
 ✅ **Async Processing** - Non-blocking uploads with Redis Streams
+
 ✅ **AI Summarization** - Automatic summaries for all documents
+
 ✅ **Large File Support** - Chunked processing handles any size
+
 ✅ **Dual Processing** - Gemini vision or PyPDF extraction
+
 ✅ **Real-time Progress** - Live status updates with polling
+
 ✅ **Docker Ready** - Complete containerization with docker-compose
+
 ✅ **Scalable** - Horizontal scaling of workers
+
 ✅ **Production Ready** - Error handling, logging, monitoring, testing (83% coverage)
+
 ✅ **Responsive Design** - Works on desktop, tablet, and mobile
 
 ## Configuration
