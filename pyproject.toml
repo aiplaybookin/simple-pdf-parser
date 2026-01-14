@@ -1,0 +1,34 @@
+[project]
+name = "simple-pdf-parser"
+version = "0.1.0"
+description = "Intelligent document processing application"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "python-multipart>=0.0.12",
+    "redis>=5.2.0",
+    "pypdf>=5.1.0",
+    "pdf2image>=1.17.0",
+    "google-genai>=0.1.0",
+    "python-dotenv>=1.0.1",
+    "pillow>=11.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "pytest-mock>=3.12.0",
+    "httpx>=0.27.0",
+]
+
+[tool.setuptools]
+packages = ["app", "app.models", "app.routes", "app.services"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

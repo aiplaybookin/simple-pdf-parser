@@ -1,0 +1,42 @@
+.error-container {
+  animation: fadeIn 0.5s ease;
+}
+
+.error-card {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.error-card h2 {
+  color: #e53e3e;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #718096;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.error-card .btn-outline {
+  width: 100%;
+  max-width: 300px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

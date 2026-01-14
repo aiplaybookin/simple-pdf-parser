@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python-generated files
+__pycache__/
+*/*/__pycache__/
+.pytest_cache/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+
+htmlcov/
+.coverage
